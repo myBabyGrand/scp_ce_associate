@@ -61,9 +61,9 @@
  - Object Storage
    - Rest API로 접근 : API로 데이터를 접근하는 웹서버
  - K-pop 서비스의 예
-   - 전통적인 구성 
+   - 전통적인 구성
    ![](/img/availability009.png)
-   - Object Storage 활용  
+   - Object Storage 활용
    ![](/img/availability010.png)
      - html, css등 정적 컨텐츠를 Object Storage로 관리
      - Fn으로 동적 컨텐츠 처리
