@@ -61,12 +61,12 @@
  - SCP는 Kubernetes 컨테이너 오케스트레이션, DevOps 제공
 
  - 그밖에
- - **Bare Metal Server**
+ - **Bare Metal Server**<br>
  ![](/img/performanceEfficiency008.png)   
- - **HPC Cluster**
+ - **HPC Cluster**<br>
  ![](/img/performanceEfficiency009.png)   
  - Bare Metal Server와 차이점은 여러서버를 클러스터로 묶고 애플리케이션 작업은 각각의 노드에서 병렬로 처리할 수 있다.
- - **GPU Multi-node**
+ - **GPU Multi-node**<br>
  ![](/img/performanceEfficiency010.png)   
  
  ### 원칙 2. 스토리지 선택
@@ -78,7 +78,7 @@
    
 ### 원칙 3. 데이터베이스 선택 : 사용자 구축형, 관리형
  - 사용자 구축형(직접설치)
- - SCP  관리형
+ - SCP  관리형<br>
  ![](/img/performanceEfficiency012.png)   
     * PostgreSQL, MySQL은 읽기복제(Read-replica) 제공, 주 DB의 읽기 부하 감소, 성능 향상
     * **현재 기준 EPAS, PostgreSQL, MariaDB, MySQL, MS SQL 읽기 복제 지원**
