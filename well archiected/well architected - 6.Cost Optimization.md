@@ -4,7 +4,7 @@
 ![](/img/costOptimization001.png)
 
 ## 2. 비용최적화란?
- - 비용최적화 <> 비용절감
+ - 비용최적화 <> 비용절감<br>
  ![](/img/costOptimization002.png)
  - 예) 전세계 지사가 있는 게임회사에서 임직원이 사용할 서비스를 클라우드에 올릴지 고민
  ![](/img/costOptimization003.png)
@@ -49,7 +49,7 @@
         + 트래픽 비용과 스토리지 비용
     * 예산과 중요도를 고려하여 RTO, RPO를 적정 수준으로 결정
  - 성능    
-    * 처리 성능 보장 수준
+    * 처리 성능 보장 수준<br>
     ![](/img/costOptimization013.png)
     * 하이브리드 클라우그 설계시 애플리케이션 연결을 할 경우
         + 소켓통신과 같이 안정적 속도가 필요할 경우 : Direct Connetcion
@@ -64,7 +64,7 @@
     * SCP의 MSP : NONE < LITE < BASIC < PREMIUM 등급으로 운영
 
 ### 원칙 2. 적합한 컴퓨팅 자원을 선택
- - 클라우드 비용이 가장 많이 발생
+ - 클라우드 비용이 가장 많이 발생<br>
  ![](/img/costOptimization014.png)
  - 비용 절감 전략
     * PaaS는 SW 운영 비용을 절감 할 수 있어 내부 인력이 부족할 경우 활용
@@ -84,7 +84,7 @@
     * 크기 조정
  - 요금계산기
  ![](/img/costOptimization015.png)  
- - Virtual Server 타입
+ - Virtual Server 타입<br>
  ![](/img/costOptimization016.png)  
 
 ### 원칙 3. 확장성을 감안한 컴퓨팅 아키텍처를 설계
@@ -94,7 +94,7 @@
         + 사용자의 확장성 부담 감소
         + 사용자가 사용한 만큼 비용 지불 가능
     * 사용량 증가를 예측할 수 없는 경우 Auto Scaling 사용
- - 모범사례
+ - 모범사례<br>
  ![](/img/costOptimization017.png)
  * 하이브리드 버스팅 : 온프레미스 사용량 급증일 때, 클라우드로 부하를 전환해서 처리
  - Auto Scaling
@@ -127,7 +127,7 @@
     * 클라우드 자워에 대한 태그 연결 규칙 수립 
         + 규칙적으로 태그가 연결된 자원은 그룹에서 관리
     * Cloud Monitoring 지표에 대한 관리 정책 수립
- - 모범사례
+ - 모범사례<br>
  ![](/img/costOptimization020.png)
  - SCP에서 제공하는 비용 추적을 위한 기능
  ![](/img/costOptimization021.png)
