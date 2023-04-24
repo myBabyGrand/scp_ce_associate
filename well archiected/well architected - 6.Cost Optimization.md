@@ -51,7 +51,7 @@
  - 성능    
     * 처리 성능 보장 수준<br>
     ![](/img/costOptimization013.png)
-    * 하이브리드 클라우그 설계시 애플리케이션 연결을 할 경우
+    * 하이브리드 클라우드 설계시 애플리케이션 연결을 할 경우
         + 소켓통신과 같이 안정적 속도가 필요할 경우 : Direct Connetcion
         + API연동등을 이용하여 안정적 속도가 불필요 할 경우 : VPN
  - 운영
@@ -98,7 +98,7 @@
  ![](/img/costOptimization017.png)
  * 하이브리드 버스팅 : 온프레미스 사용량 급증일 때, 클라우드로 부하를 전환해서 처리
  - Auto Scaling
-    * SCP는 약정외도 Auto Scaling이 가능하다.
+    * SCP는 무약정 Auto Scaling이 가능하다.
     ![](/img/costOptimization018.png)
  - Auto Scaling 유의 사항
     * Virtual Server의 시작 속도가 늦으면 대응이 늦으므로 미리 확장해서 부하 대비
@@ -124,7 +124,7 @@
 ### 원칙 5. 지속적인 비용 추적을 구현
  - 운영의 관점
  - 비용 절감 전략
-    * 클라우드 자워에 대한 태그 연결 규칙 수립 
+    * 클라우드 자원에 대한 태그 연결 규칙 수립 
         + 규칙적으로 태그가 연결된 자원은 그룹에서 관리
     * Cloud Monitoring 지표에 대한 관리 정책 수립
  - 모범사례<br>

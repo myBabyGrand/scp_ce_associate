@@ -20,9 +20,9 @@
   - 1대의 가용률이 99.95% 일 때 2대인 경우
   - 0,05 * 0.05 = 0.0025% -> 가용률은 99.9975%
   - Load balancer
-  - ![](/img/availability004.png) 
+  ![](/img/availability004.png) 
   - Load balancer의 문제점 - 데이터 동기화 -> storage의 공유
-  - ![](/img/availability005.png) 
+  ![](/img/availability005.png) 
   
   - 수평확장 Scale out
     - 물리적 자원을 소프트웨어로 사용
@@ -62,9 +62,9 @@
   - Object Storage
     - Rest API로 접근 : API로 데이터를 접근하는 웹서버
   - K-pop 서비스의 예
-    - 1. 전통적인 구성
+    - 1. 전통적인 구성<br>
     ![](/img/availability009.png)
-    - 2. Object Storage 활용
+    - 2. Object Storage 활용<br>
     ![](/img/availability010.png)
       - html, css등 정적 컨텐츠를 Object Storage로 관리
       - Fn으로 동적 컨텐츠 처리

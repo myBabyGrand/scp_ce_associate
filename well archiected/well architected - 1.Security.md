@@ -53,7 +53,7 @@
  - 전송 중 데이터 보호 전략 : VPN, Direct Connect, SSL
    - SSL/TLS 인증서 통합관리 
 
-### 원칙3. 가능한 모든자원의에 보안 적용
+### 원칙3. 가능한 모든자원에 보안 적용
  - 세부원칙 1 : Virtual Server는 최대한 프라이빗 서브넷에 배치하여 보호
    - Private Subnet은 외부에서 요청할 때 사용하는 NAT IP를 할당하지 않음
    ![security010](/img/security010.png)
