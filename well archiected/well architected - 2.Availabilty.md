@@ -18,7 +18,7 @@
 ## 2. 클라우드의 고가용성
   - HA : High Availability
   - 1대의 가용률이 99.95% 일 때 2대인 경우
-  - 0,05 * 0.05 = 0.0025% -> 가용률은 99.9975%
+  - 0.05 * 0.05 = 0.0025% -> 가용률은 99.9975%
   - Load balancer<br>
   ![](/img/availability004.png) 
   - Load balancer의 문제점 - 데이터 동기화 -> storage의 공유
